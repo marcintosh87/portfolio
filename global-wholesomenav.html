@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      /* Fixed sidenav, full height */
+      .sidenav {
+        height: 100%;
+        width: 200px;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+      }
+
+      /* Style the sidenav links and the dropdown button */
+      .sidenav a,
+      .dropdown-btn {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        color: black;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+      }
+
+      /* On mouse-over */
+      .sidenav a:hover,
+      .dropdown-btn:hover {
+        text-decoration: underline;
+      }
+
+      /* Add an active class to the active dropdown button */
+      .active {
+        background-color: #008ad1;
+        color: white;
+      }
+
+      /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+      .dropdown-container {
+        display: none;
+        color: white;
+        padding-left: 8px;
+      }
+
+      /* Optional: Style the caret down icon */
+      .fa-caret-down {
+        margin-left: 10px;
+      }
+
+      /* Some media queries for responsiveness */
+      @media screen and (max-height: 450px) {
+        .sidenav {
+          padding-top: 15px;
+        }
+        .sidenav a {
+          font-size: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidenav">
+      <a href="wholesome.html"
+        ><h3 style="margin-left: -10px;">Wholeseome me</h3></a
+      >
+      <!-- Dropdown Button -->
+      <button class="dropdown-btn" style="font-size: 16px; font-weight: bold;">
+        Wellbeing Forecast
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <!-- <a href="#">June 2020</a> -->
+        <button class="dropdown-btn">
+          June 2020
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+          <a
+            href="wellbeingforecast/june-healthresources.html"
+            style="font-size: 14px;"
+            >Health Resources</a
+          >
+        </div>
+        <!-- May Start -->
+        <button class="dropdown-btn">
+          May 2020
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+          <a href="wellbeingforecast/may-3-good.html" style="font-size: 14px;"
+            >3 Good Things</a
+          >
+          <a
+            href="wellbeingforecast/may-gratitude.html"
+            style="font-size: 14px;"
+            >Gratitude</a
+          >
+          <a
+            href="wellbeingforecast/may-healthcare-hero.html"
+            style="font-size: 14px;"
+            >Healthcare Hero</a
+          >
+        </div>
+        <!-- May End -->
+      </div>
+      <!-- Dropdown Button End -->
+      <a href="wholesome-financial.html">Financial</a>
+      <a href="wholesome-social.html">Social</a>
+      <a href="wholesome-emotional.html">Emotional</a>
+
+      <a href="wholesome-physical.html">Physical</a>
+    </div>
+
+    <script>
+      /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+      var dropdown = document.getElementsByClassName("dropdown-btn");
+      var i;
+
+      for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

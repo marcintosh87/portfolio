@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Benefits</title>
+    <link rel="stylesheet" href="css/megamenu.css" />
+    <!-- Mega Menu Stylesheet -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/megamenu_plugins.js"></script>
+    <!-- Mega Menu Plugins -->
+    <script type="text/javascript" src="js/megamenu.js"></script>
+    <!-- Mega Menu Script -->
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+        $(".megamenu").megaMenuCompleteSet({
+          menu_speed_show: 300, // Time (in milliseconds) to show a drop down
+          menu_speed_hide: 200, // Time (in milliseconds) to hide a drop down
+          menu_speed_delay: 200, // Time (in milliseconds) before showing a drop down
+          menu_effect: "hover_fade", // Drop down effect, choose between 'hover_fade', 'hover_slide', etc.
+          menu_click_outside: 1, // Clicks outside the drop down close it (1 = true, 0 = false)
+          menu_show_onload: 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+        });
+      });
+    </script>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container935">
+      <header>
+        <div id="subheader"></div>
+
+        <script>
+          $(function () {
+            $("#subheader").load("global-header.html");
+          });
+        </script>
+      </header>
+      <div class="benefitsnav">
+        <ul>
+          <div id="benefitsnav"></div>
+
+          <script>
+            $(function () {
+              $("#benefitsnav").load("global-benefitsNav.html");
+            });
+          </script>
+        </ul>
+      </div>
+
+      <main>
+        <div class="row">
+          <div class="column side">
+            <ul>
+              <div id="wholesomenav">
+                <script>
+                  $(function () {
+                    $("#wholesomenav").load("global-wholesomenav.html");
+                  });
+                </script>
+              </div>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="column middle">
+              <a href="wholesome-hp.html"
+                ><img src="img/wholesome-me-hero.jpg"
+              /></a>
+              <h2>Physical</h2>
+
+              <h4>Employee Telehealth Service</h4>
+              <p>
+                Memorial has temporarily launched a free telehealth service for
+                you and your dependents. Here’s how to use the service:
+              </p>
+
+              <ul class="bulletlist">
+                <li>Call (954) 265-8400 to schedule an appointment</li>
+                <li>
+                  Log into MyChart from any internet-connected device before
+                  your appointment begins
+                </li>
+                <li>
+                  Click on “Visits” from a computer or “Appointments” from a
+                  mobile device
+                </li>
+                <li>
+                  Select your appointment and click on Test Hardware/Test Video
+                </li>
+                <li>Complete eCheck-in to start your appointment</li>
+              </ul>
+              <p><b>$0 Copays at Memorial Urgent Care Centers</b></p>
+              <p>
+                We’ve temporarily waived copays for employees and their
+                dependents at our two Memorial Urgent Care Centers, allowing
+                them to see a doctor for free. You can visit either of our
+                urgent care centers whether or not you are a participant in MMCP
+                or MCHP.
+              </p>
+
+              <div class="flex-container">
+                <div style="width: 50%;">
+                  <a
+                    href="https://www.mhs.net/locations/urgent-care-pembroke-pines"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><h4>Pembroke Pines</h4></a
+                  >
+                  <ul class="sans-bulletlist">
+                    <li>16620 Sheridan Street</li>
+                    <li>Pembroke Pines, FL 33331</li>
+                    <li>Monday – Friday</li>
+                    <li>9 a.m. - 9 p.m.</li>
+                    <li>Saturday – Sunday</li>
+                    <li>9 a.m. - 5 p.m.</li>
+                    <li>(954) 276-1285</li>
+                  </ul>
+                </div>
+                <div style="width: 50%;">
+                  <a
+                    href="https://www.mhs.net/locations/urgent-care-hollywood"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><h4>Hollywood</h4></a
+                  >
+                  <ul class="sans-bulletlist">
+                    <li>1740 Sheridan Street</li>
+                    <li>Hollywood, FL 33020Monday – Friday</li>
+                    <li>9 a.m. - 9 p.m.</li>
+                    <li>Saturday – Sunday</li>
+                    <li>9 a.m. - 5 p.m.</li>
+                    <li>(954) 276-1565</li>
+                  </ul>
+                </div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

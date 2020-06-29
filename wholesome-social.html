@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Benefits</title>
+    <link rel="stylesheet" href="css/megamenu.css" />
+    <!-- Mega Menu Stylesheet -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/megamenu_plugins.js"></script>
+    <!-- Mega Menu Plugins -->
+    <script type="text/javascript" src="js/megamenu.js"></script>
+    <!-- Mega Menu Script -->
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+        $(".megamenu").megaMenuCompleteSet({
+          menu_speed_show: 300, // Time (in milliseconds) to show a drop down
+          menu_speed_hide: 200, // Time (in milliseconds) to hide a drop down
+          menu_speed_delay: 200, // Time (in milliseconds) before showing a drop down
+          menu_effect: "hover_fade", // Drop down effect, choose between 'hover_fade', 'hover_slide', etc.
+          menu_click_outside: 1, // Clicks outside the drop down close it (1 = true, 0 = false)
+          menu_show_onload: 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+        });
+      });
+    </script>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container935">
+      <header>
+        <div id="subheader"></div>
+
+        <script>
+          $(function () {
+            $("#subheader").load("global-header.html");
+          });
+        </script>
+      </header>
+      <div class="benefitsnav">
+        <ul>
+          <div id="benefitsnav"></div>
+
+          <script>
+            $(function () {
+              $("#benefitsnav").load("global-benefitsNav.html");
+            });
+          </script>
+        </ul>
+      </div>
+
+      <main>
+        <div class="row">
+          <div class="column side">
+            <ul>
+              <div id="wholesomenav">
+                <script>
+                  $(function () {
+                    $("#wholesomenav").load("global-wholesomenav.html");
+                  });
+                </script>
+              </div>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="column middle">
+              <a href="wholesome-hp.html"
+                ><img src="img/wholesome-me-hero.jpg"
+              /></a>
+              <h2>Social</h2>
+
+              <h4>Summer Child Care</h4>
+
+              <p>
+                We’ve partnered with the Early Learning Coalition of Broward
+                County to bring you child care through the middle of summer.
+                This will replace the current child care offering at the
+                Hollywood YMCA. Here are the details:
+              </p>
+
+              <ul class="bulletlist">
+                <li>
+                  The last day for child care at the YMCA is Friday, May 8
+                </li>
+                <li>Children ages 0 through 13 are invited to participate.</li>
+                <li>
+                  You must be a Memorial employee to participate.
+                  <a
+                    href="https://memorialhealth.pmail5.com/PoliteMail/default.aspx?page=BZuCcy0hRkS04egMYwe7sA&ref_id="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Please fill out this application</a
+                  >
+                  and share it with your facility’s HR team; they’ll authorize
+                  your participation.
+                </li>
+                <li>
+                  You’ll be eligible for up to 90 days of child care from the
+                  date that you start using the service.
+                </li>
+                <li>
+                  All children will be screened before entering; sick children
+                  will not be able to attend.
+                </li>
+                <li>
+                  You will be responsible for providing all meals for your
+                  child(ren). This may include breakfast, lunch, dinner, and
+                  snacks.
+                </li>
+              </ul>
+
+              <p>
+                There are a number of facilities to choose from. Some sites do
+                not require payment, others may have a small copay. Please
+                contact Kathleen Isaac or Raven Williams at (954) 377-2188 for
+                full details and to find a location that meets your needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

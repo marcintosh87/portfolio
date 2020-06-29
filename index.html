@@ -1,11 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcos Lopez Portfolio</title>
-</head>
-<body>
-   <h1>Test</h1> 
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memorial HR</title>
+    <link rel="stylesheet" href="css/megamenu.css" />
+    <!-- Mega Menu Stylesheet -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/megamenu_plugins.js"></script>
+    <!-- Mega Menu Plugins -->
+    <script type="text/javascript" src="js/megamenu.js"></script>
+    <!-- Mega Menu Script -->
+    <script type="text/javascript">
+      $(document).ready(function ($) {
+        $(".megamenu").megaMenuCompleteSet({
+          menu_speed_show: 300, // Time (in milliseconds) to show a drop down
+          menu_speed_hide: 200, // Time (in milliseconds) to hide a drop down
+          menu_speed_delay: 200, // Time (in milliseconds) before showing a drop down
+          menu_effect: "hover_fade", // Drop down effect, choose between 'hover_fade', 'hover_slide', etc.
+          menu_click_outside: 1, // Clicks outside the drop down close it (1 = true, 0 = false)
+          menu_show_onload: 0, // Drop down to show on page load (type the number of the drop down, 0 for none)
+        });
+      });
+    </script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container935">
+      <header>
+        <div id="mainheader">
+          <script>
+            $.get("global-header.html", function (data) {
+              $("#mainheader").replaceWith(data);
+            });
+          </script>
+        </div>
+      </header>
+
+      <main>
+        <img src="img/values-01-p-1600.jpeg" width="930" height="244" alt="" />
+
+        <p class="bodytext">
+          Together, we will create a progressive, supportive culture that puts
+          our people first, enabling them to perform life-changing work to heal
+          the body, mind, and spirit of our community.
+        </p>
+        <!--         <div class="modalbg">
+          <div class="modal">
+            <h2>Visit Open Enrollment Section</h2>
+            <button>Visit</button>
+          </div>
+        </div>
+        <script type="text/javascript" src="js/modal.js"></script> -->
+      </main>
+    </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-3.5.1.js"
+  ></script>
 </html>
