@@ -1,0 +1,400 @@
+@charset "UTF-8";
+
+.container935 {
+  max-width: 930px;
+  min-width: 930px;
+  width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container935 p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.ContactBTN {
+  width: auto;
+  height: auto;
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+  max-width: none;
+}
+.bodytext {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.container935 header img {
+  margin-bottom: -4px;
+}
+.benefitsnav {
+  background-color: black;
+  margin-top: -1.5px;
+}
+.benefitsnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.benefitsnav li {
+  float: left;
+}
+
+.benefitsnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.benefitsnav li a:hover {
+  background-color: rgb(255, 255, 255);
+}
+.benefitsnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.benefitsnav li {
+  float: left;
+}
+
+.benefitsnav li a {
+  display: block;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.benefitsnav li a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #333;
+}
+.benefitsnav li a:target {
+  background-color: rgb(255, 255, 255);
+  color: #333;
+}
+.submenu1 {
+  height: 100%;
+  width: 235px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.submenu1 ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: -25px;
+}
+.submenu1 ul li a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+  display: block;
+  background: none;
+}
+.submenu1 ul li a:hover {
+  text-decoration: underline;
+}
+.submenu1 ul li a.active {
+  text-decoration: underline;
+  color: blue;
+}
+
+.heropara {
+  width: 695px;
+  text-align: left;
+}
+
+.flex-container {
+  display: flex;
+}
+.flex-containerwrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.txtcolumn {
+  column-count: 2;
+  column-gap: 30px;
+  width: 100%;
+}
+.txtcolumn p {
+  line-height: 20px;
+  font-size: 14px;
+}
+.txtcolumn i {
+  font-size: 13px;
+  line-height: 1.3;
+}
+.hero700 {
+  width: 695px;
+}
+.columntbl3 {
+  display: flex;
+}
+table {
+  width: 695px;
+}
+th h4 {
+  text-align: left;
+  padding: 0px 10px;
+  height: 0px;
+}
+td {
+  width: 232px;
+  font-size: 14px;
+  vertical-align: top;
+  line-height: 1.5;
+}
+ul li a {
+  list-style-position: outside;
+}
+.topnav li a:hover {
+  background-color: #0a549d;
+}
+.topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  text-align: center;
+}
+
+.topnav li {
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.topnav li a {
+  display: block;
+  color: #0a549d;
+  font-size: 13.4px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.topnav li a:hover {
+  background-color: #0a549d;
+  color: rgb(255, 255, 255);
+}
+.topnav li a:target {
+  background-color: #0a549d;
+  color: rgb(255, 255, 255);
+}
+.sec342px {
+  width: 330px;
+  height: auto;
+  text-align: left;
+  padding-right: 10px;
+}
+.sec342px p a {
+  font-size: 14px;
+}
+.sec342px a:hover {
+  text-decoration: underline;
+}
+
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.column.side {
+  width: 235px;
+}
+
+/* Middle column */
+.column.middle {
+  width: 695px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.resourcefoot ul li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  padding-top: 2px;
+}
+.resourcefoot a:hover {
+  text-decoration: underline;
+}
+ol li {
+  margin-left: -20px;
+}
+.morebenefitsnav ul {
+  padding-top: 10px;
+  font-size: 14px;
+  list-style: none;
+  line-height: 20px;
+}
+.morebenefitsnav a:hover {
+  text-decoration: underline;
+}
+.morebenefitsnav a {
+  color: black;
+}
+.morebenefitsnav li {
+  padding-top: 8px;
+}
+.bluebutton {
+  background-color: #0a549d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.bluebutton button:hover {
+  background-color: #008ad1;
+}
+.bulletlist {
+  font-size: 14px;
+  line-height: 20px;
+}
+.sans-bulletlist {
+  font-size: 14px;
+  line-height: 20px;
+  list-style: none;
+  margin-left: -40px;
+}
+.myBox {
+  background-color: #008ad1;
+  padding: 12px;
+  color: white;
+  width: auto;
+  border-radius: 5px;
+}
+.contactbox {
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f3f0f0;
+  border-radius: 10px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.contactboxdiv p {
+  text-align: justify;
+  height: 120px;
+  padding: 0px 20px 10px 20px;
+  font-size: 12px;
+}
+.hptable,
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+
+  width: 100px;
+  padding: 10px;
+}
+.covidnav ul {
+  font-size: 14px;
+  list-style: none;
+  line-height: 20px;
+}
+.covidnav a:hover {
+  text-decoration: underline;
+}
+.covidnav a {
+  color: black;
+}
+.covidnav li {
+  padding-top: 8px;
+}
+
+.smallbox {
+  background-color: #008ad1;
+  padding: 12px;
+  color: white;
+  width: fit-content;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.erdnav ul {
+  padding-top: 10px;
+  font-size: 14px;
+  list-style: none;
+  line-height: 2px;
+}
+.erdnav a:hover {
+  text-decoration: underline;
+}
+.erdnav a {
+  color: black;
+}
+.bgactive {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modalbg {
+  position: fixed;
+  top: 0em;
+  left: 0em;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0, 5);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  opacity: 0;
+  transition: visibility 0s, opacity 0, 5s;
+  visibility: hidden;
+}
+.modal {
+  background-color: red;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: column;
+}
+.wholesomenav {
+  padding-top: 10px;
+  font-size: 14px;
+  list-style: none;
+  line-height: 20px;
+}
+.wholesomenav li {
+  margin-left: -20px;
+  font-size: 20px;
+}
